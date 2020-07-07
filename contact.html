@@ -80,14 +80,14 @@
 				
 				<div class="row">
 					<div class="col-sm-2 col-xs-12">
-						<div id="gtco-logo"><a href="index.php"><img src="images/logo.png" alt="Bird Byte: Criação de Sites e Sistemas Web"></a></div>
+						<div id="gtco-logo"><a href="index.html"><img src="images/logo.png" alt="Bird Byte: Criação de Sites e Sistemas Web"></a></div>
 					</div>
 					<div class="col-xs-10 text-right menu-1">
 						<ul>
-							<li><a href="index.php">Home</a></li>
-							<li><a href="sobre.php">Sobre</a></li>
-							<li><a href="servicos.php">Serviços</a></li>
-							<li class="nav-item"><a class="nav-link link text-secondary display-4" href="hospedagem.php">Hospedagem&nbsp;</a></li>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="sobre.html">Sobre</a></li>
+							<li><a href="servicos.html">Serviços</a></li>
+							<li class="nav-item"><a class="nav-link link text-secondary display-4" href="hospedagem.html">Hospedagem&nbsp;</a></li>
 							
 							<!-- <li class="has-dropdown">
 								<a href="#">Dropdown</a>
@@ -98,9 +98,9 @@
 									<li><a href="#">jQuery</a></li>
 								</ul>
 							</li> -->
-							<li><a href="portfolio.php">Portfolio</a></li>
-							<li><a href="blog.php" target="blank">Blog</a></li>
-							<li class="active"><a href="contact.php">Contactos</a></li>
+							<li><a href="portfolio.html">Portfolio</a></li>
+							<li><a href="blog.html" target="blank">Blog</a></li>
+							<li class="active"><a href="contact.html">Contactos</a></li>
 							
 							<li class="nav-item"><a class="nav-link link text-secondary display-4" href="https://mobirise.co">&nbsp; &nbsp;&nbsp;</a></li></ul>
             <div class="navbar-buttons mbr-section-btn"><a class="btn btn-sm btn-primary-outline display-4" href="tel:+258845432511">
@@ -149,15 +149,15 @@
 				if ($_POST) 
 				{
 					//Carrega as classes do PHPMailer
-					include("./phpmailer/class.phpmailer.php"); 
-					include("./phpmailer/class.smtp.php"); 
+					include("./phpmailer/class.htmlmailer.html"); 
+					include("./phpmailer/class.smtp.html"); 
 					
 					//envia o e-mail para o visitante do site
 					$mailDestino = $_POST['txtEmail']; 
 					$nome = $_POST['txtNome'];	
 					$mensagem = "Obrigado pelo seu contato à Bird Byte, responderemos mais breve o possivel!";
 					$assunto = "Contacto à 'Bird Byte!";
-					include("./enviar.php");
+					include("./enviar.html");
 					
 					//envia o e-mail para o administrador do site
 					$mailDestino = 'birdbyte.web@gmail.com';
@@ -168,7 +168,7 @@
 								<strong>E-mail:</strong> $_POST[txtEmail]<br/>
 								<strong>Telefone:</strong> $_POST[txtTelefone]<br/>
 								<strong>Mensagem:</strong> $_POST[txtMensagem]";
-					include("./enviar.php");
+					include("./enviar.html");
 					
 					
 				}
@@ -236,7 +236,7 @@
 							<div class="col-md-6">
 								<ul class="gtco-list-link">
 									<li><a href="#">Home</a></li>
-									<li><a href="contact.php">Contactos</a></li>
+									<li><a href="contact.html">Contactos</a></li>
 								</ul>
 							</div>
 							<div class="col-md-6">
@@ -267,7 +267,7 @@
 							<p><small>&copy; 2020 || Bird Byte. All Rights Reserved. </small></p>
 						</div>
 						<div class="col-md-6 text-right">
-							<p><small>Designed by <a href="index.php">Bird Byte</a></small></small> </p>
+							<p><small>Designed by <a href="index.html">Bird Byte</a></small></small> </p>
 						</div>
 					</div>
 				</div>

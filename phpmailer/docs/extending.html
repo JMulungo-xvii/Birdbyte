@@ -14,7 +14,7 @@ This demonstrates sending multiple email messages with binary attachments
 from a MySQL database using multipart/alternative messages.<p>
 
 <pre>
-require 'PHPMailerAutoload.php';
+require 'PHPMailerAutoload.html';
 
 $mail = new PHPMailer();
 
@@ -67,11 +67,11 @@ classes, and it's very easy to do:
 <p>
 Here's a class that extends the phpmailer class and sets the defaults
 for the particular site:<br>
-PHP include file: my_phpmailer.php
+PHP include file: my_phpmailer.html
 <p>
 
 <pre>
-require 'PHPMailerAutoload.php';
+require 'PHPMailerAutoload.html';
 
 class my_phpmailer extends PHPMailer {
     // Set default variables for all new objects
@@ -105,7 +105,7 @@ class my_phpmailer extends PHPMailer {
 Now here's a normal PHP page in the site, which will have all the defaults set above:<br>
 
 <pre>
-require 'my_phpmailer.php';
+require 'my_phpmailer.html';
 
 // Instantiate your new class
 $mail = new my_phpmailer;

@@ -7,11 +7,11 @@
 //This should be done in your php.ini, but this is how to do it if you don't have access to that
 date_default_timezone_set('Etc/UTC');
 
-require '../PHPMailerAutoload.php';
+require '../PHPMailerAutoload.html';
 
 //Load dependencies from composer
 //If this causes an error, run 'composer install'
-require '../vendor/autoload.php';
+require '../vendor/autoload.html';
 
 //Create a new PHPMailer instance
 $mail = new PHPMailerOAuth;
@@ -52,9 +52,9 @@ $mail->oauthClientId = "RANDOMCHARS-----duv1n2.apps.googleusercontent.com";
 //Obtained From Google Developer Console
 $mail->oauthClientSecret = "RANDOMCHARS-----lGyjPcRtvP";
 
-//Obtained By running get_oauth_token.php after setting up APP in Google Developer Console.
-//Set Redirect URI in Developer Console as [https/http]://<yourdomain>/<folder>/get_oauth_token.php
-// eg: http://localhost/phpmail/get_oauth_token.php
+//Obtained By running get_oauth_token.html after setting up APP in Google Developer Console.
+//Set Redirect URI in Developer Console as [https/http]://<yourdomain>/<folder>/get_oauth_token.html
+// eg: http://localhost/phpmail/get_oauth_token.html
 $mail->oauthRefreshToken = "RANDOMCHARS-----DWxgOvPT003r-yFUV49TQYag7_Aod7y0";
 
 //Set who the message is to be sent from

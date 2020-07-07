@@ -1,8 +1,8 @@
 <?php
 /*
- * ntlm_sasl_client.php
+ * ntlm_sasl_client.html
  *
- * @(#) $Id: ntlm_sasl_client.php,v 1.3 2004/11/17 08:00:37 mlemos Exp $
+ * @(#) $Id: ntlm_sasl_client.html,v 1.3 2004/11/17 08:00:37 mlemos Exp $
  *
  */
 

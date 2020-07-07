@@ -3,7 +3,7 @@
  * This example shows how to make use of PHPMailer's exceptions for error handling.
  */
 
-require '../PHPMailerAutoload.php';
+require '../PHPMailerAutoload.html';
 
 //Create a new PHPMailer instance
 //Passing true to the constructor enables the use of exceptions for error handling

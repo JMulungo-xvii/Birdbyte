@@ -13,7 +13,7 @@
  * @license http://www.gnu.org/copyleft/lesser.html GNU Lesser General Public License
  */
 
-require_once '../PHPMailerAutoload.php';
+require_once '../PHPMailerAutoload.html';
 
 /**
  * PHPMailer - PHP email transport unit test class
@@ -57,7 +57,7 @@ class PHPMailerLangTest extends PHPUnit_Framework_TestCase
             }
             $matches = array();
             //Only look at language files, ignore anything else in there
-            if (preg_match('/^phpmailer\.lang-([a-z_]{2,})\.php$/', $fileInfo->getFilename(), $matches)) {
+            if (preg_match('/^phpmailer\.lang-([a-z_]{2,})\.html$/', $fileInfo->getFilename(), $matches)) {
                 $lang = $matches[1]; //Extract language code
                 $PHPMAILER_LANG = array(); //Language strings get put in here
                 include $fileInfo->getPathname(); //Get language strings

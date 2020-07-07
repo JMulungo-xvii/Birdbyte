@@ -14,4 +14,4 @@ This class by Konstantin Riabitsev and Jim Jagielski implements HTML filtering t
 
 ##NTLM_SASL_client
 
-This class by Manuel Lemos (bundled with permission) adds the ability to authenticate with Microsoft Windows mail servers that use NTLM-based authentication. It is used by PHPMailer if you send via SMTP and set the `AuthType` property to `NTLM`; you will also need to use the `Realm` and `Workstation` properties. The original source is [here](http://www.phpclasses.org/browse/file/7495.html).
+This class by Manuel Lemos (bundled with permission) adds the ability to authenticate with Microsoft Windows mail servers that use NTLM-based authentication. It is used by PHPMailer if you send via SMTP and set the `AuthType` property to `NTLM`; you will also need to use the `Realm` and `Workstation` properties. The original source is [here](http://www.htmlclasses.org/browse/file/7495.html).

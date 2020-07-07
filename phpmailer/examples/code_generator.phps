@@ -4,7 +4,7 @@
  * revised, updated and corrected 27/02/2013
  * by matt.sturdy@gmail.com
  */
-require '../PHPMailerAutoload.php';
+require '../PHPMailerAutoload.html';
 
 $CFG['smtp_debug'] = 2; //0 == off, 1 for client output, 2 for client and server
 $CFG['smtp_debugoutput'] = 'html';
@@ -40,7 +40,7 @@ $results_messages = array();
 
 // $example_code represents the "final code" that we're using, and will
 // be shown to the user at the end.
-$example_code = "\nrequire_once '../PHPMailerAutoload.php';";
+$example_code = "\nrequire_once '../PHPMailerAutoload.html';";
 $example_code .= "\n\n\$results_messages = array();";
 
 $mail = new PHPMailer(true);  //PHPMailer instance with exceptions enabled
@@ -329,7 +329,7 @@ $example_code .= "\n}";
 
             var resetForm = document.createElement("form");
             resetForm.setAttribute("method", "POST");
-            resetForm.setAttribute("path", "index.php");
+            resetForm.setAttribute("path", "index.html");
 
             for (var k in post_params) {
                 var h = document.createElement("input");

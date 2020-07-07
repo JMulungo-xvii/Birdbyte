@@ -4,7 +4,7 @@ error_reporting(E_STRICT | E_ALL);
 
 date_default_timezone_set('Etc/UTC');
 
-require '../PHPMailerAutoload.php';
+require '../PHPMailerAutoload.html';
 
 $mail = new PHPMailer;
 

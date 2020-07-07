@@ -13,7 +13,7 @@
  * @license http://www.gnu.org/copyleft/lesser.html GNU Lesser General Public License
  */
 
-require_once realpath('../PHPMailerAutoload.php');
+require_once realpath('../PHPMailerAutoload.html');
 
 /**
  * PHPMailer - PHP email transport unit test class
@@ -67,8 +67,8 @@ class PHPMailerTest extends PHPUnit_Framework_TestCase
      */
     public function setUp()
     {
-        if (file_exists('testbootstrap.php')) {
-            include 'testbootstrap.php'; //Overrides go in here
+        if (file_exists('testbootstrap.html')) {
+            include 'testbootstrap.html'; //Overrides go in here
         }
         $this->Mail = new PHPMailer;
         $this->Mail->SMTPDebug = 3; //Full debug output
@@ -299,8 +299,8 @@ class PHPMailerTest extends PHPUnit_Framework_TestCase
     public function testBootstrap()
     {
         $this->assertTrue(
-            file_exists('testbootstrap.php'),
-            'Test config params missing - copy testbootstrap.php to testbootstrap-dist.php and change as appropriate'
+            file_exists('testbootstrap.html'),
+            'Test config params missing - copy testbootstrap.html to testbootstrap-dist.html and change as appropriate'
         );
     }
 
@@ -1185,7 +1185,7 @@ EOT;
     public function testIcal()
     {
         //Standalone ICS tests
-        require_once realpath(self::INCLUDE_DIR . 'extras/EasyPeasyICS.php');
+        require_once realpath(self::INCLUDE_DIR . 'extras/EasyPeasyICS.html');
         $ICS = new EasyPeasyICS("PHPMailer test calendar");
         $this->assertNotEmpty(
             $ICS->addEvent(
@@ -2141,7 +2141,7 @@ EOT;
 
 /**
  * This is a sample form for setting appropriate test values through a browser
- * These values can also be set using a file called testbootstrap.php (not in repo) in the same folder as this script
+ * These values can also be set using a file called testbootstrap.html (not in repo) in the same folder as this script
  * which is probably more useful if you run these tests a lot
  * <html>
  * <body>

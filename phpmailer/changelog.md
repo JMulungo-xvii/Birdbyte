@@ -286,7 +286,7 @@
 * added callback function support
   - callback function parameters include:
     result, to, cc, bcc, subject and body
-  - see the test/test_callback.php file for usage.
+  - see the test/test_callback.html file for usage.
 * added "auto" identity functionality
   - can automatically add:
     - Return-path (if Sender not set)
@@ -312,10 +312,10 @@ With the release of this version, we are initiating a new version numbering
 system to differentiate from the PHP4 version of PHPMailer.
 Most notable in this release is fully object oriented code.
 
-### class.smtp.php:
-* Refactored class.smtp.php to support new exception handling
+### class.smtp.html:
+* Refactored class.smtp.html to support new exception handling
 * code size reduced from 29.2 Kb to 25.6 Kb
-* Removed unnecessary functions from class.smtp.php:
+* Removed unnecessary functions from class.smtp.html:
   - public function Expand($name) {
   - public function Help($keyword="") {
   - public function Noop() {
@@ -323,8 +323,8 @@ Most notable in this release is fully object oriented code.
   - public function SendOrMail($from) {
   - public function Verify($name) {
 
-###  class.phpmailer.php:
-* Refactored class.phpmailer.php with new exception handling
+###  class.htmlmailer.html:
+* Refactored class.htmlmailer.html with new exception handling
 * Changed processing functionality of Sendmail and Qmail so they cannot be
   inadvertently used
 * removed getFile() function, just became a simple wrapper for
@@ -352,7 +352,7 @@ All new documentation
 ## Version 2.3 (November 06, 2008)
 * added Arabic language (many thanks to Bahjat Al Mostafa)
 * removed English language from language files and made it a default within
-  class.phpmailer.php - if no language is found, it will default to use
+  class.htmlmailer.html - if no language is found, it will default to use
   the english language translation
 * fixed public/private declarations
 * corrected line 1728, $basedir to $directory
@@ -362,19 +362,19 @@ All new documentation
   if default is not acceptable
 * removed trim() from return results in EncodeQP
 * /test and three files it contained are removed from version 2.3
-* fixed phpunit.php for compliance with PHP5
+* fixed phpunit.html for compliance with PHP5
 * changed $this->AltBody = $textMsg; to $this->AltBody = html_entity_decode($textMsg);
 * We have removed the /phpdoc from the downloads. All documentation is now on
   the http://phpmailer.codeworxtech.com website.
 
 ## Version 2.2.1 () July 19 2008
-* fixed line 1092 in class.smtp.php (my apologies, error on my part)
+* fixed line 1092 in class.smtp.html (my apologies, error on my part)
 
 ## Version 2.2 () July 15 2008
 * Fixed redirect issue (display of UTF-8 in thank you redirect)
-* fixed error in getResponse function declaration (class.pop3.php)
+* fixed error in getResponse function declaration (class.pop3.html)
 * PHPMailer now PHP6 compliant
-* fixed line 1092 in class.smtp.php (endless loop from missing = sign)
+* fixed line 1092 in class.smtp.html (endless loop from missing = sign)
 
 ## Version 2.1 (Wed, June 04 2008)
 NOTE: WE HAVE A NEW LANGUAGE VARIABLE FOR DIGITALLY SIGNED S/MIME EMAILS. IF YOU CAN HELP WITH LANGUAGES OTHER THAN ENGLISH AND SPANISH, IT WOULD BE APPRECIATED.
@@ -426,11 +426,11 @@ Please note, this is BETA software
  INTENDED STRICTLY FOR TESTING
 
 ## Version 2.0.0 rc2 (Fri, Nov 16 2007), interim release
-* implements new property to control VERP in class.smtp.php
-  example (requires instantiating class.smtp.php):
+* implements new property to control VERP in class.smtp.html
+  example (requires instantiating class.smtp.html):
   $mail->do_verp = true;
 * POP-before-SMTP functionality included, thanks to Richard Davey
-  (see class.pop3.php & pop3_before_smtp_test.php for examples)
+  (see class.pop3.html & pop3_before_smtp_test.html for examples)
 * included example showing how to use PHPMailer with GMAIL
 * fixed the missing Cc in SendMail() and Mail()
 
@@ -572,7 +572,7 @@ NOTE: will NOT work with PHP5 in E_STRICT error mode
 ## Version 1.19 (Thu, Jun 21 2001)
 * Fixed MS Mail header bug
 * Added fix for Bcc problem with mail(). *Does not work on Win32*
-  (See PHP bug report: http://www.php.net/bugs.php?id=11616)
+  (See PHP bug report: http://www.html.net/bugs.html?id=11616)
 * mail() no longer passes a fifth parameter when not needed
 
 ## Version 1.15 (Fri, Jun 15 2001)
@@ -627,7 +627,7 @@ Note: these changes contributed by Patrice Fournier
 * Added PrintVersion() function
 
 ## Version 0.92 (Tue, May 15 2001)
-* Changed file names to class.phpmailer.php and class.smtp.php to match
+* Changed file names to class.htmlmailer.html and class.smtp.html to match
   current PHP class trend.
 * Fixed problem where body not being printed when a message is attached
 * Several small bug fixes

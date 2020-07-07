@@ -13,7 +13,7 @@
  _ Q&A:  http://jquery.pupunzi.com                                                                                                                  _
  _                                                                                                                                                  _
  _ Licences: MIT, GPL                                                                                                                               _
- _    http://www.opensource.org/licenses/mit-license.php                                                                                            _
+ _    http://www.opensource.org/licenses/mit-license.html                                                                                            _
  _    http://www.gnu.org/licenses/gpl.html                                                                                                          _
  _                                                                                                                                                  _
  _ Copyright (c) 2001-2016. Matteo Bicocchi (Pupunzi);                                                                                              _
@@ -992,7 +992,7 @@ var get_vimeo_videoID = function( url ) {
  _ Q&A:  http://jquery.pupunzi.com                                                                                                                  _
  _                                                                                                                                                  _
  _ Licences: MIT, GPL                                                                                                                               _
- _    http://www.opensource.org/licenses/mit-license.php                                                                                            _
+ _    http://www.opensource.org/licenses/mit-license.html                                                                                            _
  _    http://www.gnu.org/licenses/gpl.html                                                                                                          _
  _                                                                                                                                                  _
  _ Copyright (c) 2001-2016. Matteo Bicocchi (Pupunzi);                                                                                              _
@@ -1023,7 +1023,7 @@ jQuery.isMobile=jQuery.browser.mobile;jQuery.isTablet=jQuery.browser.mobile&&765
  _ Q&A:  http://jquery.pupunzi.com                                                                                                                  _
  _                                                                                                                                                  _
  _ Licences: MIT, GPL                                                                                                                               _
- _    http://www.opensource.org/licenses/mit-license.php                                                                                            _
+ _    http://www.opensource.org/licenses/mit-license.html                                                                                            _
  _    http://www.gnu.org/licenses/gpl.html                                                                                                          _
  _                                                                                                                                                  _
  _ Copyright (c) 2001-2015. Matteo Bicocchi (Pupunzi);                                                                                              _

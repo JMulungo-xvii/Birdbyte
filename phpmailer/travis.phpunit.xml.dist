@@ -18,7 +18,7 @@
     </testsuites>
     <filter>
         <blacklist>
-            <directory suffix=".php">./extras</directory>
+            <directory suffix=".html">./extras</directory>
         </blacklist>
     </filter>
     <groups>

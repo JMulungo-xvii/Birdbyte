@@ -401,7 +401,7 @@
             },
             "autoload": {
                 "files": [
-                    "src/lib/json_version.php"
+                    "src/lib/json_version.html"
                 ],
                 "psr-0": {
                     "Herrera\\Json": "src/lib"
@@ -461,7 +461,7 @@
             },
             "autoload": {
                 "files": [
-                    "src/lib/constants.php"
+                    "src/lib/constants.html"
                 ],
                 "psr-0": {
                     "Herrera\\Phar\\Update": "src/lib"
@@ -960,7 +960,7 @@
                 "MIT"
             ],
             "description": "Fileset component for collecting a set of files given directories and file paths",
-            "homepage": "http://www.phpdoc.org",
+            "homepage": "http://www.htmldoc.org",
             "keywords": [
                 "files",
                 "fileset",
@@ -1063,7 +1063,7 @@
                 "ext-xslcache": "Enabling the XSLCache extension improves the generation of xml based templates."
             },
             "bin": [
-                "bin/phpdoc.php",
+                "bin/phpdoc.html",
                 "bin/phpdoc"
             ],
             "type": "library",
@@ -1088,7 +1088,7 @@
                 "MIT"
             ],
             "description": "Documentation Generator for PHP",
-            "homepage": "http://www.phpdoc.org",
+            "homepage": "http://www.htmldoc.org",
             "keywords": [
                 "api",
                 "application",
@@ -1143,7 +1143,7 @@
                 "MIT"
             ],
             "description": "Reflection library to do Static Analysis for PHP Projects",
-            "homepage": "http://www.phpdoc.org",
+            "homepage": "http://www.htmldoc.org",
             "keywords": [
                 "phpDocumentor",
                 "phpdoc",
@@ -1754,7 +1754,7 @@
             "authors": [
                 {
                     "name": "PHP-FIG",
-                    "homepage": "http://www.php-fig.org/"
+                    "homepage": "http://www.html-fig.org/"
                 }
             ],
             "description": "Common interface for logging libraries",
@@ -2481,7 +2481,7 @@
                     "Symfony\\Polyfill\\Mbstring\\": ""
                 },
                 "files": [
-                    "bootstrap.php"
+                    "bootstrap.html"
                 ]
             },
             "notification-url": "https://packagist.org/downloads/",

@@ -7,7 +7,7 @@ if (array_key_exists('userfile', $_FILES)) {
 
     // Create a message
     // This should be somewhere in your include_path
-    require '../PHPMailerAutoload.php';
+    require '../PHPMailerAutoload.html';
     $mail = new PHPMailer;
     $mail->setFrom('from@example.com', 'First Last');
     $mail->addAddress('whoto@example.com', 'John Doe');

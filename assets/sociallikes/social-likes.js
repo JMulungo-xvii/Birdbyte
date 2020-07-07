@@ -40,7 +40,7 @@
             convertNumber: function(data) {
                 return data.data[0].total_count;
             },
-            popupUrl: 'https://www.facebook.com/sharer/sharer.php?u={url}',
+            popupUrl: 'https://www.facebook.com/sharer/sharer.html?u={url}',
             popupWidth: 600,
             popupHeight: 500
         },
@@ -72,7 +72,7 @@
             popupHeight: 360
         },
         vkontakte: {
-            counterUrl: 'https://vk.com/share.php?act=count&url={url}&index={index}',
+            counterUrl: 'https://vk.com/share.html?act=count&url={url}&index={index}',
             counter: function(jsonUrl, deferred) {
                 var options = services.vkontakte;
                 if (!options._) {
@@ -90,7 +90,7 @@
                 $.getScript(makeUrl(jsonUrl, {index: index}))
                     .fail(deferred.reject);
             },
-            popupUrl: protocol + '//vk.com/share.php?url={url}&title={title}',
+            popupUrl: protocol + '//vk.com/share.html?url={url}&title={title}',
             popupWidth: 550,
             popupHeight: 330
         },

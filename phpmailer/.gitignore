@@ -1,6 +1,6 @@
 docs/phpdoc/
 test/message.txt
-test/testbootstrap.php
+test/testbootstrap.html
 test/*.pem
 build/
 vendor/

@@ -7,7 +7,7 @@
 //This should be done in your php.ini, but this is how to do it if you don't have access to that
 date_default_timezone_set('Etc/UTC');
 
-require '../PHPMailerAutoload.php';
+require '../PHPMailerAutoload.html';
 
 //Create a new PHPMailer instance
 $mail = new PHPMailer;

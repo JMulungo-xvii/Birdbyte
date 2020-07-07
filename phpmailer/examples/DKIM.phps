@@ -7,7 +7,7 @@
  * which shows how to make a key pair from PHP.
  */
 
-require '../PHPMailerAutoload.php';
+require '../PHPMailerAutoload.html';
 
 //Create a new PHPMailer instance
 $mail = new PHPMailer;
